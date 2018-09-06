@@ -86,13 +86,14 @@
 <meta property="og:site_name" content="lostifor的博客">
 <meta property="og:description" content="前言注意next5.14版本  由于该版本中已经集成了Valine，我就简要的说一下流程： leancloud 相关keyleancloud，没有申请应用的朋友可前往leanCloud官网  注册并申请一个应用，并在应用设置里的安全中心设置好安全域名由于我之前配置统计的时候我已经注册过一个应用了，于是直接进入下一步。 配置valine打开主题配置文件（即next主题中的_config.yml">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://yoursite.com/2018/09/06/从零开始的个人博客，next添加Valine评论功能/WX20180906-142805@2x.png">
 <meta property="og:image" content="http://yoursite.com/2018/09/06/从零开始的个人博客，next添加Valine评论功能/8624D2EB-FA08-4690-9064-5A65CB7F0B0B.png">
 <meta property="og:image" content="http://yoursite.com/2018/09/06/从零开始的个人博客，next添加Valine评论功能/WX20180906-141706@2x.png">
-<meta property="og:updated_time" content="2018-09-06T06:23:45.919Z">
+<meta property="og:updated_time" content="2018-09-06T06:30:14.263Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="从零开始的个人博客，next添加Valine评论功能">
 <meta name="twitter:description" content="前言注意next5.14版本  由于该版本中已经集成了Valine，我就简要的说一下流程： leancloud 相关keyleancloud，没有申请应用的朋友可前往leanCloud官网  注册并申请一个应用，并在应用设置里的安全中心设置好安全域名由于我之前配置统计的时候我已经注册过一个应用了，于是直接进入下一步。 配置valine打开主题配置文件（即next主题中的_config.yml">
-<meta name="twitter:image" content="http://yoursite.com/2018/09/06/从零开始的个人博客，next添加Valine评论功能/8624D2EB-FA08-4690-9064-5A65CB7F0B0B.png">
+<meta name="twitter:image" content="http://yoursite.com/2018/09/06/从零开始的个人博客，next添加Valine评论功能/WX20180906-142805@2x.png">
 
 
 
@@ -398,7 +399,7 @@
 
       
         <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>注意<strong>next5.14版本</strong>  由于该版本中已经集成了Valine，我就简要的说一下流程：</p>
-<h3 id="leancloud-相关key"><a href="#leancloud-相关key" class="headerlink" title="leancloud 相关key"></a>leancloud 相关key</h3><p>leancloud，没有申请应用的朋友可前往<a href="https://leancloud.cn/" target="_blank" rel="noopener">leanCloud官网</a>  注册并申请一个应用，并在应用设置里的安全中心设置好安全域名<br>由于我之前配置统计的时候我已经注册过一个应用了，于是直接进入下一步。<br><img src="/2018/09/06/从零开始的个人博客，next添加Valine评论功能/8624D2EB-FA08-4690-9064-5A65CB7F0B0B.png" title="注意appid以及appkey下一步将会用到"></p>
+<h3 id="leancloud-相关key"><a href="#leancloud-相关key" class="headerlink" title="leancloud 相关key"></a>leancloud 相关key</h3><p>leancloud，没有申请应用的朋友可前往<a href="https://leancloud.cn/" target="_blank" rel="noopener">leanCloud官网</a>  注册并申请一个应用，并在应用设置里的安全中心设置好安全域名<br><img src="/2018/09/06/从零开始的个人博客，next添加Valine评论功能/WX20180906-142805@2x.png" title="设置好安全域名"><br>由于我之前配置统计的时候我已经注册过一个应用了，于是直接进入下一步。<br><img src="/2018/09/06/从零开始的个人博客，next添加Valine评论功能/8624D2EB-FA08-4690-9064-5A65CB7F0B0B.png" title="注意appid以及appkey下一步将会用到"></p>
 <h3 id="配置valine"><a href="#配置valine" class="headerlink" title="配置valine"></a>配置valine</h3><p>打开主题配置文件（即next主题中的<code>_config.yml</code>）找到valine的配置,并填上对应的信息。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">valine:</span><br><span class="line">enable: true</span><br><span class="line">appid: xxxxxx # 填写 leancloud  appid</span><br><span class="line">appkey: xxxxxx # 填写 leancloud  appkey</span><br><span class="line">notify: false # </span><br><span class="line">verify: false # Verification code</span><br><span class="line">placeholder: 各位道友，请举手发言 # comment box placeholder</span><br><span class="line">avatar: mm # gravatar style</span><br><span class="line">guest_info: nick,mail,link # custom comment header</span><br><span class="line">pageSize: 10 # pagination size</span><br></pre></td></tr></table></figure></p>
 <a id="more"></a>
 <h3 id="hexo重新上传"><a href="#hexo重新上传" class="headerlink" title="hexo重新上传"></a>hexo重新上传</h3><p>在项目根目录下<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure></p>
