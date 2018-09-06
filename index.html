@@ -306,7 +306,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/09/06/从零开始的个人博客，next主题添加Valine评论功能/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/09/06/从零开始的个人博客，next添加Valine评论功能/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="李佳育">
@@ -325,7 +325,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/09/06/从零开始的个人博客，next主题添加Valine评论功能/" itemprop="url">从零开始的个人博客，next主题添加Valine评论功能</a></h1>
+                <a class="post-title-link" href="/2018/09/06/从零开始的个人博客，next添加Valine评论功能/" itemprop="url">从零开始的个人博客，next添加Valine评论功能</a></h1>
         
 
         <div class="post-meta">
@@ -337,7 +337,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-06T13:10:01+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-06T14:13:21+08:00">
                 2018-09-06
               </time>
             
@@ -356,8 +356,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2018/09/06/从零开始的个人博客，next主题添加Valine评论功能/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2018/09/06/从零开始的个人博客，next主题添加Valine评论功能/" itemprop="commentCount"></span>
+                <a href="/2018/09/06/从零开始的个人博客，next添加Valine评论功能/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/09/06/从零开始的个人博客，next添加Valine评论功能/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -365,7 +365,7 @@
 
           
           
-             <span id="/2018/09/06/从零开始的个人博客，next主题添加Valine评论功能/" class="leancloud_visitors" data-flag-title="从零开始的个人博客，next主题添加Valine评论功能">
+             <span id="/2018/09/06/从零开始的个人博客，next添加Valine评论功能/" class="leancloud_visitors" data-flag-title="从零开始的个人博客，next添加Valine评论功能">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -398,11 +398,11 @@
       
         
           <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>注意<strong>next5.14版本</strong>  由于该版本中已经集成了Valine，我就简要的说一下流程：</p>
-<h3 id="leancloud-相关key"><a href="#leancloud-相关key" class="headerlink" title="leancloud 相关key"></a>leancloud 相关key</h3><p>leancloud，没有申请应用的朋友可前往<a href="https://leancloud.cn/" target="_blank" rel="noopener">leanCloud官网</a>  注册并申请一个应用，并在应用设置里的安全中心设置好安全域名<br>由于我之前配置统计的时候我已经注册过一个应用了，于是直接进入下一步。</p>
-<h3 id="配置valine"><a href="#配置valine" class="headerlink" title="配置valine"></a>配置valine</h3><p>打开主题配置文件（即next主题中的<code>_config.yml</code>）找到valine的配置,并填上对应的信息。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">valine:</span><br><span class="line">  enable: true</span><br><span class="line">  appid: xxxxxx # 填写 leancloud  appid</span><br><span class="line">  appkey: xxxxxx # 填写 leancloud  appkey</span><br><span class="line">  notify: false # </span><br><span class="line">  verify: false # Verification code</span><br><span class="line">  placeholder: 各位道友，请举手发言 # comment box placeholder</span><br><span class="line">  avatar: mm # gravatar style</span><br><span class="line">  guest_info: nick,mail,link # custom comment header</span><br><span class="line">  pageSize: 10 # pagination size</span><br></pre></td></tr></table></figure></p>
+<h3 id="leancloud-相关key"><a href="#leancloud-相关key" class="headerlink" title="leancloud 相关key"></a>leancloud 相关key</h3><p>leancloud，没有申请应用的朋友可前往<a href="https://leancloud.cn/" target="_blank" rel="noopener">leanCloud官网</a>  注册并申请一个应用，并在应用设置里的安全中心设置好安全域名<br>由于我之前配置统计的时候我已经注册过一个应用了，于是直接进入下一步。<br><img src="/2018/09/06/从零开始的个人博客，next添加Valine评论功能/8624D2EB-FA08-4690-9064-5A65CB7F0B0B.png" title="注意appid以及appkey下一步将会用到"></p>
+<h3 id="配置valine"><a href="#配置valine" class="headerlink" title="配置valine"></a>配置valine</h3><p>打开主题配置文件（即next主题中的<code>_config.yml</code>）找到valine的配置,并填上对应的信息。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">valine:</span><br><span class="line">enable: true</span><br><span class="line">appid: xxxxxx # 填写 leancloud  appid</span><br><span class="line">appkey: xxxxxx # 填写 leancloud  appkey</span><br><span class="line">notify: false # </span><br><span class="line">verify: false # Verification code</span><br><span class="line">placeholder: 各位道友，请举手发言 # comment box placeholder</span><br><span class="line">avatar: mm # gravatar style</span><br><span class="line">guest_info: nick,mail,link # custom comment header</span><br><span class="line">pageSize: 10 # pagination size</span><br></pre></td></tr></table></figure></p>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2018/09/06/从零开始的个人博客，next主题添加Valine评论功能/#more" rel="contents">
+            <a class="btn" href="/2018/09/06/从零开始的个人博客，next添加Valine评论功能/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
