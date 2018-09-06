@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[从零开始的个人博客，next主题添加Valine评论功能]]></title>
+    <url>%2F2018%2F09%2F06%2F%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%8Cnext%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0Valine%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD%2F</url>
+    <content type="text"><![CDATA[前言注意next5.14版本 由于该版本中已经集成了Valine，我就简要的说一下流程： leancloud 相关keyleancloud，没有申请应用的朋友可前往leanCloud官网 注册并申请一个应用，并在应用设置里的安全中心设置好安全域名由于我之前配置统计的时候我已经注册过一个应用了，于是直接进入下一步。 配置valine打开主题配置文件（即next主题中的_config.yml）找到valine的配置,并填上对应的信息。12345678910valine: enable: true appid: xxxxxx # 填写 leancloud appid appkey: xxxxxx # 填写 leancloud  appkey notify: false #  verify: false # Verification code placeholder: 各位道友，请举手发言 # comment box placeholder avatar: mm # gravatar style guest_info: nick,mail,link # custom comment header pageSize: 10 # pagination size hexo重新上传在项目根目录下1$ hexo g 1$ hexo d enjoy参考valine官方文档]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[从零开始的个人博客，更换next主题及配置]]></title>
     <url>%2F2018%2F09%2F05%2F%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%8C%E6%9B%B4%E6%8D%A2next%E4%B8%BB%E9%A2%98%E5%8F%8A%E9%85%8D%E7%BD%AE%2F</url>
     <content type="text"></content>
