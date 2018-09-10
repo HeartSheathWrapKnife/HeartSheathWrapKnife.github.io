@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Mac安装npm node.js环境]]></title>
+    <url>%2F2018%2F09%2F10%2FMac%E5%AE%89%E8%A3%85npm-node-js%E7%8E%AF%E5%A2%83%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[从零开始的个人博客，next添加Valine评论功能]]></title>
     <url>%2F2018%2F09%2F06%2F%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%8Cnext%E6%B7%BB%E5%8A%A0Valine%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD%2F</url>
     <content type="text"><![CDATA[前言注意next5.14版本 由于该版本中已经集成了Valine，我就简要的说一下流程： leancloud 相关keyleancloud，没有申请应用的朋友可前往leanCloud官网 注册并申请一个应用，并在应用设置里的安全中心设置好安全域名由于我之前配置统计的时候我已经注册过一个应用了，于是直接进入下一步。 配置valine打开主题配置文件（即next主题中的_config.yml）找到valine的配置,并填上对应的信息。12345678910valine:enable: trueappid: xxxxxx # 填写 leancloud appidappkey: xxxxxx # 填写 leancloud  appkeynotify: false # verify: false # Verification codeplaceholder: 各位道友，请举手发言 # comment box placeholderavatar: mm # gravatar styleguest_info: nick,mail,link # custom comment headerpageSize: 10 # pagination size hexo重新上传在项目根目录下1$ hexo g 1$ hexo d enjoy简单粗暴，嘿嘿嘿。 参考valine官方文档]]></content>
@@ -18,7 +23,7 @@
   <entry>
     <title><![CDATA[从零开始的个人博客，hexo+githubPages快速搭建]]></title>
     <url>%2F2018%2F09%2F05%2F%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%8Chexo-githubPages%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%2F</url>
-    <content type="text"><![CDATA[有空再写]]></content>
+    <content type="text"><![CDATA[说明域名买了n久了，说好的搭建自己的博客，在历时大半年后，终于开始搭建了。首先本人作为一个开发者，本来应该全部都自己写的，但是最后选择了方便的hexo+githubPages来搭建自己的博客（说这么多，其实就是自己懒和菜），话不多说下面就开始正题。 开始之前在开始搭建博客之前，请确认：1.github账号，这个就不多说了，程序员必备2.安装node.js npm 建立Git仓库新建一个名为 用户名.github.io的仓库，必须使用用户名，比如：我的用户名是xxx 那么仓库名为 xxx.github.io，然后我们就可以直接访问 xxx.github.io注意：每个账户只能建立一个这样的仓库。 配置SSH key查看是否存在已有的SSHkey1$ cd ~/.ssh （ps：我用原来的SSHkey没能通过验证，后来格式化了该文件夹后重新生成的SSHkey）如果没有存在的SSHkey，则：1$ ssh-keygen -t rsa -C "your email" 确认后，前往文件 _.ssh\id_rsa.pub_ 里面的内容将会在Git的SSHkey设置里面用到。打开github设置，选中SSH and GPG keys，点击 new SSHkey按钮在title中填写任意内容。在key中粘贴，.ssh\id_rsa.pub里面的所有内容，保存。 测试SSHkey打开终端，输入:1$ ssh -T git@github.com 如果提示： Are you sure you want to continue connecting (yes/no)? 输入yes Hi HeartSheathWrapKnife! You’ve successfully authenticated, but GitHub does not provide shell access. 注意：如果验证一直通不过，提示 Permission denied，则可能本机SSH环境SSHkey添加错误，或者失效，重新添加即可。 hexo说说我对hexo粗浅的理解，因为github pages存放的都是静态文件，不可能手动对本地文件进行一个一个的更改，所以由hexo统一管理所有md文件，由hexo通过source文件中的本地md以及图片等设置，生成成对应的静态网页（存放在public文件中，也就是我们的xxx.github.io的实际内容），然后再将有改动的静态页面提交到github。hexo官网hexogithub链接 安装hexo确认所有需要的环境（git，node.js ,npm）均已安装后1$ npm install -g hexo-cli 安装完成后，在桌面或者任意指定目录，建立hexo项目文件夹。我一般项目都建立在桌面。比如/Users/lijiayu/Desktop/LostiforHexo12$ cd 你新建的文件夹目录$ npm install 命令执行完毕后，该文件夹大概目录如下。 12345678.├── _config.yml├── package.json├── scaffolds├── source| ├── _drafts| └── _posts└── themes 然后，生成静态文件。1$ hexo g #生成静态文件 1$ hexo s #本地预览 1$ hexo d #上传到github仓库 可以选择本地预览，开启本地预览后，在浏览器访问http://localhost:4000 打开后显示默认主题的博客，以及一篇hello world 的文章。这个时候我们博客的骨架就基本搭建完成了。接下来就是给博客更换主题，添加功能，以及美化等工作。]]></content>
       <tags>
         <tag>hexo</tag>
         <tag>githubPages</tag>
