@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>https://lostifor.com/2018/09/05/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%8Chexo-githubPages%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2018-09-10T11:44:43.446Z</lastmod>
+    <data>
+        <display>
+        <title>从零开始的个人博客，hexo+githubPages快速搭建</title>
+        <pubTime>2018-09-05T08:42:11.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>githubPages</tag>
+         
+        <tag>博客搭建</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lostifor.com/2018/09/05/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%8C%E6%9B%B4%E6%8D%A2next%E4%B8%BB%E9%A2%98%E5%8F%8A%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2018-09-10T11:18:47.432Z</lastmod>
+    <data>
+        <display>
+        <title>从零开始的个人博客，更换next主题及配置</title>
+        <pubTime>2018-09-05T09:55:46.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>NexT</tag>
+         
+        <tag>NexT.mist</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lostifor.com/2018/09/06/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%8Cnext%E6%B7%BB%E5%8A%A0Valine%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD/</loc>
+    <lastmod>2018-09-10T10:27:02.985Z</lastmod>
+    <data>
+        <display>
+        <title>从零开始的个人博客，next添加Valine评论功能</title>
+        <pubTime>2018-09-06T06:13:21.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lostifor.com/2018/09/10/Mac%E5%AE%89%E8%A3%85npm-node-js%E7%8E%AF%E5%A2%83/</loc>
+    <lastmod>2018-09-10T07:49:32.265Z</lastmod>
+    <data>
+        <display>
+        <title>Mac安装npm node.js环境</title>
+        <pubTime>2018-09-10T07:49:32.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+    
+    
+  <url>
+    <loc>https://lostifor.com/2018/09/04/hello-world/</loc>
+    <lastmod>2018-09-04T08:12:31.294Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2018-09-04T08:12:31.293Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+</urlset>
